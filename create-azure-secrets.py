@@ -16,7 +16,7 @@ import pyfiglet
 ascii_banner = pyfiglet.figlet_format("          Azure Py          \n Create    Secrets")
 print(ascii_banner)
 
-print("This CLI script was created by Tish Hutchinson ....... \n\n")
+print("This CLI script was created by TechyTish ....... \n\n")
 
 #check if inputs
 while True:
