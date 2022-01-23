@@ -20,9 +20,10 @@ This python script will enable you to create multiple secrets at once via the co
 - azure.keyvault.secrets
 
 # Build and Test
+- Download the ``` "create-azure-secrets.py" ``` file from this repo.
 - Open your command line of choice
-- Navigate to the folder where the "create-azure-secrets.py" file is located
-- Enter pyhton3 create-azure-secrets.py in ther command line and the script will Started
+- Navigate to the folder where the ``` "create-azure-secrets.py" ``` file is located on your device.
+- Enter ``` pyhton3 create-azure-secrets.py ``` in the command line and the script will start.
 - Press CTRL + C at anytime to exit the script
 
 # Contribute
