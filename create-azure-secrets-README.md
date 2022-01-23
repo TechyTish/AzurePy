@@ -28,3 +28,7 @@ This python script will enable you to create multiple secrets at once via the co
 
 # Contribute
 - [Github](https://github.com/TechyTish/AzurePy)
+
+
+# Screenshot of App
+<img width="918" alt="Screenshot 2022-01-23 at 11 02 42" src="https://user-images.githubusercontent.com/27959256/150686559-1fdf88d9-4e05-4c45-b264-9278c78d1fe4.png">
