@@ -12,8 +12,16 @@ This python script will enable you to create multiple secrets at once via the co
 - Install the secrets package using the ``` pip3 install azure-keyvault-secrets ``` command.
 
 # Latest releases
-- v1.0: Sunday 23rd January 2022 - first release
-- v1.1: Monday 24th January 2022 - implented environment variable stored via user input (no longer need to run ```export KEY_VAULT_NAME=mykeyvaultname``` command prior to running script.
+
+| Version No. |                                                            Details                                                      |
+| :---------: | :--------------------------------------------------------------------------------------------------------------------:  |
+|     1.0     | first release                                                                                                           |
+|     1.1     | environment variable stored via user input - no longer need to run ```export KEY_VAULT_NAME=mykeyvaultname``` command prior to running script.|
+|     1.2     | ...                                                                                                                     |
+|     1.3     | ...                                                                                                                     |
+|     1.4     | ...                                                                                                                     |
+|     1.5     | ...                                                                                                                     |
+|     1.6     | ...                                                                                                                     |
 
 # API references
 - azure.identity
