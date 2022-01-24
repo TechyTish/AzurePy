@@ -15,7 +15,7 @@ This python script will enable you to create multiple secrets at once via the co
 
 | Version No. |                                                            Details                                                      |
 | :---------: | :--------------------------------------------------------------------------------------------------------------------:  |
-|     1.0     | first release                                                                                                           |
+|     1.0     | users can create multiple secrets with error handling for invalid inputs                                                |
 |     1.1     | environment variable stored via user input - no longer need to run ```export KEY_VAULT_NAME=mykeyvaultname``` command prior to running script.|
 |     1.2     | ...                                                                                                                     |
 |     1.3     | ...                                                                                                                     |
