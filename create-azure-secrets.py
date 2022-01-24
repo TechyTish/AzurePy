@@ -1,22 +1,27 @@
 import os
 from azure.keyvault.secrets import SecretClient
 from azure.identity import DefaultAzureCredential
-#from azure.keyvault.keys import KeyClient
-
-#keyvault env name
-keyVaultName = os.environ["KEY_VAULT_NAME"]
-#keyvault URI
-KVUri = f"https://{keyVaultName}.vault.azure.net"
-#get credentials from already signed in user
-credential = DefaultAzureCredential()
-#store user credentials and keyvault URI
-secret_client = SecretClient(vault_url=KVUri, credential=credential)
 
 import pyfiglet
 ascii_banner = pyfiglet.figlet_format("          Azure Py          \n Create    Secrets")
 print(ascii_banner)
 
-print("This CLI script was created by TechyTish ....... \n\n")
+print("This CLI script was created by Tish Hutchinson ....... \n\n")
+
+#set keyvault variable
+keyVaultVar = "KEY_VAULT_NAME"
+#ask for key vault name
+keyVaultName = input("Please enter the name of the key vault that you wish to create secrets for: \n> ")
+#run script on the command line
+os.system(f"export {keyVaultVar}={keyVaultName}")
+#print envrionment variable
+print(f"\n \n'{keyVaultVar}={keyVaultName}' environment variable has been set.\n\n")
+#set keyvault URI
+KVUri = f"https://{keyVaultName}.vault.azure.net"
+#get credentials from already signed in user
+credential = DefaultAzureCredential()
+#store user credentials & keyvault URI
+secret_client = SecretClient(vault_url=KVUri, credential=credential)
 
 #check if inputs
 while True:
@@ -54,9 +59,3 @@ for key, value in myDict.items():
     secret_client.set_secret(key, value)
 
 print("Your secrets have been uploaded to Azure, thanks for using my script!")
-
-#print(f"Retrieving your secret from {keyVaultName}.")
-
-#retrieved_secret = secret_client.get_secret(myDict)
-
-#print(f"Your secret is '{retrieved_secret.value}'.")
