@@ -1,2 +1,2 @@
 # AzurePy
-A collection of python scripts to automate the process of multiple azure CLI commands
+A collection of python scripts to automate the processes of deploying azure resources.
