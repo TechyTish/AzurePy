@@ -8,6 +8,7 @@ This python script will enable you to create multiple secrets at once via the co
 # Installation
 - Open your command line of choice
 - Sign into Azure using the ``` az login ``` command.
+- Check you are using the correct subscription using the ``` az account show ``` command.
 - Install the identity package using the ``` pip3 install azure-identity ``` command.
 - Install the secrets package using the ``` pip3 install azure-keyvault-secrets ``` command.
 
